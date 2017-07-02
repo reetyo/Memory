@@ -1,0 +1,16 @@
+{
+  "name": "Memory",
+  "version": "1.0.0",
+  "description": "A app to help you memory words",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "~1.6.2",
+    "electron-package": "^0.1.0"
+  },
+  "scripts":{
+    "packager": "electron-packager . --overwrite --platform=linux"
+  }
+}
